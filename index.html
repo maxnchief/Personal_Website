@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport">
     <title></title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -11,15 +12,15 @@
         }
     </style>
 </head>
-<header class="bg-[url(images/mountain.jpg)] bg-cover bg-fixed h-64 sm:h-dvh flex flex-col items-center justify-center">
+<header class="bg-[url(images/mountain.jpg)] bg-cover bg-fixed h-64 sm:h-dvh flex flex-col items-center justify-center font-extrabold">
     <h1 class="text-center text-9xl text-transparent bg-clip-text bg-gradient-to-r to-cyan-200 from-blue-200 drop-shadow-[0_4px_24px_rgba(0,0,0,0.6)] p-2">Welcome, to me!</h1>
     <h2 class="text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r to-cyan-200 from-blue-200 drop-shadow-[0_4px_24px_rgba(0,0,0,0.6)] p-2">Maxwell Logan</h2>
 </header>
-<body>
-<div class="flex flex-row justify-around bg-blue-950 p-4">
-    <h2>Thing 1</h2>
-    <h2>Thing 2</h2>
-    <h3>Thing 3</h3>
+<body class="font-mono">
+<div class="flex flex-row justify-around bg-blue-950 p-4 text-white text-shadow-lg/30 font-bold">
+    <h2>Full-Stack Developer</h2>
+    <h2>Audio Engineer</h2>
+    <h3>Touches Grass</h3>
 </div>
 <div class="flex justify-around items-center p-4">
     <img src="images/temp.jpg" alt="temp" class="rounded-full w-2/5 aspect-square object-cover shadow-lg/30 ml-2 mr-2"/>
@@ -27,13 +28,13 @@
         <p>I am a great programer who thinks about cool stuff and gets it done</p>
     </div>
 </div>
-<div class="mt-12 mb-12">
+<div class="mt-20 mb-12 ml-5 mr-5">
     <div class="relative w-full max-w-xl mx-auto">
         <div id="carousel-images" class="overflow-hidden rounded-lg shadow-lg/30">
-            <img src="images/temp.jpg" class="w-full h-64 object-cover transition-opacity duration-700 opacity-100 rounded-lg" alt="Slide 1">
-            <img src="images/mountain.jpg" class="w-full h-64 object-cover transition-opacity duration-700 opacity-0 absolute top-0 left-0 rounded-lg" alt="Slide 2">
-            <img src="images/mountain.jpg" class="w-full h-64 object-cover transition-opacity duration-700 opacity-0 absolute top-0 left-0 rounded-lg" alt="Slide 3">
-            <img src="images/temp.jpg" class="w-full h-64 object-cover transition-opacity duration-700 opacity-0 absolute top-0 left-0 rounded-lg" alt="Slide 4">
+            <img src="images/atlas.png" class="w-full h-64 object-cover transition-opacity duration-700 opacity-100 rounded-lg" alt="Slide 1">
+            <img src="images/vscode.png" class="w-full h-64 object-cover transition-opacity duration-700 opacity-0 absolute top-0 left-0 rounded-lg" alt="Slide 2">
+            <img src="images/TulsaTech.jpeg" class="w-full h-64 object-cover transition-opacity duration-700 opacity-0 absolute top-0 left-0 rounded-lg" alt="Slide 3">
+            <img src="images/protools2.png" class="w-full h-64 object-cover transition-opacity duration-700 opacity-0 absolute top-0 left-0 rounded-lg" alt="Slide 4">
         </div>
         <button id="prev" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-2 shadow">
             &#8592;
