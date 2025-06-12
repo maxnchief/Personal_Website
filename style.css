@@ -3,3 +3,7 @@
 .test {
     @apply text-sky-500;
 }
+
+* {
+    caret-color: transparent;
+}
