@@ -12,11 +12,11 @@
         }
     </style>
 </head>
-<header class="bg-[url(images/mountain.jpg)] bg-auto md:bg-cover md:bg-fixed h- md:h-dvh flex flex-col items-center justify-center font-extrabold">
+<header class="bg-[url(images/mountain.jpg)] bg-cover md:bg-cover md:bg-fixed h- md:h-dvh flex flex-col items-center justify-center font-extrabold">
     <h1 class="text-center text-9xl text-transparent bg-clip-text bg-gradient-to-r to-cyan-200 from-blue-200 drop-shadow-[0_4px_24px_rgba(0,0,0,0.6)] p-2">Welcome, to me!</h1>
     <h2 class="text-center text-3xl text-transparent bg-clip-text bg-gradient-to-r to-cyan-200 from-blue-200 drop-shadow-[0_4px_24px_rgba(0,0,0,0.6)] p-2">Maxwell Logan</h2>
 </header>
-<body class="font-mono text-3xl lg:text-base">
+<body class="font-mono text-3xl lg:text-base min-h-screen md:min-h-0">
 <div class="flex flex-row justify-around bg-blue-950 p-4 text-white text-shadow-lg/30 font-bold">
     <h2>Full-Stack Developer</h2>
     <h2>Audio Engineer</h2>
@@ -25,9 +25,7 @@
 <div class="flex justify-around items-center p-4">
     <img src="images/temp.jpg" alt="temp" class="rounded-full w-2/5 aspect-square object-cover shadow-lg/30 ml-2 mr-2"/>
     <div class="bg-gray-200 p-4 rounded shadow-lg/30 p-2 ml-2 mr-2">
-        <p>
-            I am an aspiring full-stack engineer with a passion for building robust and user-friendly applications. My journey has equipped me with a diverse set of skills across both front-end and back-end technologies. I am eager to begin my professional career, contribute to innovative projects, and continue learning in a dynamic environment.
-        </p>
+        <p>Hi, my name is Max. I'm a Tulsa born and raised Full-Stack Developer who also has a history as an Audio Engineer. I'm eager to put my talents to work and build myself and my city. As a student at Atlas I've learned many things, not only from working on multiple exiting projects, but meeting many great people.<br><br>I try to cary great enthusiasm with everything I work on. What's the point of working for a living if we can't have a little bit of fun while doing it? I seriously doubt that my weakness is that I "work too hard" but I guarantee that I will keep working hard till the day that I can get senior discounts. To all my future employers: I will be one of the most dedicated, adaptive, and get-it-done people you will ever work with.<br><br>Listed Below is my linkedin, github, and email. Please feel free to reach out on any of those, or just peruse my catalog. </p>
     </div>
 </div>
 <div class="mt-20 mb-12 ml-5 mr-5">
@@ -45,25 +43,32 @@
             &#8594;
         </button>
         <div class="flex justify-center mt-2 space-x-2">
-            <button class="w-3 h-3 rounded-full bg-gray-400" data-index="0"></button>
-            <button class="w-3 h-3 rounded-full bg-gray-300" data-index="1"></button>
-            <button class="w-3 h-3 rounded-full bg-gray-300" data-index="2"></button>
-            <button class="w-3 h-3 rounded-full bg-gray-300" data-index="3"></button>
+            <button class="w-3 h-3 rounded-full bg-gray-400" data-index="0" aria-label="Go to slide 1" aria-current="true"></button>
+            <button class="w-3 h-3 rounded-full bg-gray-300" data-index="1" aria-label="Go to slide 2"></button>
+            <button class="w-3 h-3 rounded-full bg-gray-300" data-index="2" aria-label="Go to slide 3"></button>
+            <button class="w-3 h-3 rounded-full bg-gray-300" data-index="3" aria-label="Go to slide 4"></button>
         </div>
     </div>
     <script src="script.js"></script>
 </div>
 </body>
-<footer class="bg-blue-950 flex justify-evenly mt-8 p-5">
-    <a href="https://www.linkedin.com/in/maxwell-logan/" class="text-white underline flex items-center">
-        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/>
-        </svg>
-    linkedin</a>
-    <a href="https://github.com/maxnchief" class="text-white underline flex items-center">  
-        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 2.92-.39c.99 0 1.99.13 2.92.39 2.22-1.49 3.2-1.18 3.2-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.7.42.36.79 1.09.79 2.2 0 1.59-.01 2.87-.01 3.26 0 .31.21.68.8.56C20.71 21.39 24 17.08 24 12c0-6.27-5.23-11.5-12-11.5z"/>
-        </svg>
-    github</a>
+<footer class="bg-blue-950 mt-8 p-8">
+    <div class="flex justify-evenly pb-8">
+        <a href="https://www.linkedin.com/in/maxwell-logan/" class="text-white underline flex items-center">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v5.59z"/>
+            </svg>
+        linkedin</a>
+        <a href="https://github.com/maxnchief" class="text-white underline flex items-center">  
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 2.92-.39c.99 0 1.99.13 2.92.39 2.22-1.49 3.2-1.18 3.2-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.7.42.36.79 1.09.79 2.2 0 1.59-.01 2.87-.01 3.26 0 .31.21.68.8.56C20.71 21.39 24 17.08 24 12c0-6.27-5.23-11.5-12-11.5z"/>
+            </svg>
+        github</a>
+        <a href="mailto:logandogan@gmail.com" class="text-white underline flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-.659 1.591l-7.091 7.091a2.25 2.25 0 01-3.182 0L3.409 8.584A2.25 2.25 0 012.75 6.993V6.75"/>
+            </svg>
+        Email</a>
+    </div>
 </footer>
 </html>
