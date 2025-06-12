@@ -4,4 +4,4 @@ this is a personal website originally developed for a PR assignment from school.
 
 the website is built using Tailwind with a tad bit of Java for the carousel function. 
 
-you can access the website (here)[https://maxnchief.github.io/Personal_Website/]
+you can access the website [here](https://maxnchief.github.io/Personal_Website/) 
